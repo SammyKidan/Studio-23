@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Studio 23</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"  href="css/main.css">
+    <link rel="stylesheet"  href="normalize.css">
+    <link href="https://fonts.googleapis.com/css?family=Heebo" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
+ <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/all.js" integrity="sha384-xymdQtn1n3lH2wcu0qhcdaOpQwyoarkgLVxC/wZ5q7h9gHtxICrpcaSUfygqZGOe"
+        crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <div class="wrapper">
+      <!-- Header -->
+    <header class="header">
+
+      <a href="index.html" class="logo">Studio 23</a>
+      <input class="menu-btn" type="checkbox" id="menu-btn" />
+      <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+
+      <ul class="menu">
+        <li><a href="about.html">About</a></li>
+        <li><a href="portfolio.html">Portfolio</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+      </ul>
+
+    </header>
+<!-- End Of Header -->
+
+      <!-- Hero Section -->
+      <section class="indexHero">
+        <div class="indexTextContainer">
+          <h1>Studio 23</h1>
+          <h2>Digital agency based in London.</h2>
+        </div>
+      </section>
+
+
+    </div>
+
+    <script>
+
+    let mainNav = document.getElementById("js-menu");
+   let navBarToggle = document.getElementById("js-navbar-toggle");
+
+navBarToggle.addEventListener("click", function() {
+  mainNav.classList.toggle("active");
+});
+
+    </script>
+  </body>
+</html>
