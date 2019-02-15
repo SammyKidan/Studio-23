@@ -51,16 +51,14 @@ table {
 body {
   background-color: white;
 	width: 100%;
-    max-width: 100%;
+  max-width: 100%;
   height: 100vh;
   margin: 0 auto;
-
 
 }
 
 .wrapper {
   margin: 0 auto;
-
 }
  /* Header */
 
@@ -247,14 +245,14 @@ body {
    top: 30;
    justify-content: center;
    align-items: center;
-   position: absolute;
 	 margin: 0 auto;
 	 text-align: center;
  }
 
  .indexTextContainer {
-  padding: 6px;
+  padding: 6px auto;
 	text-align: center;
+	margin: 0 auto;
 }
 
 
@@ -284,16 +282,16 @@ body {
   .aboutSection {
 	 width: 100%;
 	 height: 100vh;
-	 margin-top: 0 auto;
+	 margin: 0 auto;
 	 text-align: center;
  }
 
  .about-Hero {
 	 display: block;
-	 width: 100%;
+	 width: 80%;
 	 color: #333333;
 	 padding: 10px 5px;
-	 margin: 10px auto;
+	 margin: 0 auto;
 	 position: relative;
 	 color: white;
 	 text-align: center;
@@ -311,18 +309,21 @@ body {
 }
 .aboutImg1 h1 {
 	position: relative;
-	left: 20vw;
-	top: 80%;
+	 left: 55vw;
+	 top: 80%;
+	text-align: left;
 	font-family: 'heebo';
 	font-size: 2em;
-	font-weight: 700;
-	background-color:black;
-  max-width: 40%;
-	color: white;
-	padding: 10px;
+	font-weight: 800;
+	background-color:white;
+  max-width: 80%;
+	color: black;
+	padding: 15px;
+	border-radius:40px;
 	height: auto;
 	z-index: 10;
 	opacity: 0.83;
+
 }
 
 
@@ -331,12 +332,9 @@ body {
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	padding: 0 50px;
 	margin: 0 auto;
 	width: 80%;
 	text-align: center;
-
-
 }
 
 .aboutTextContainer h1 {
@@ -349,12 +347,12 @@ body {
 
 .aboutTextContainer p {
 	font-family: 'heebo';
-	font-size: 1rem;
+	font-size: 16px;
 	line-height: 2.5rem;
 	width: auto;
 	text-align: center;
-	margin: 2% auto;
-	padding: 0 20px;
+	margin: 20px auto;
+	padding: 10px 0 ;
 	color: #4d4d4d;
 }
 
@@ -389,14 +387,11 @@ body {
 }
 
 .services h1 {
-	font-family:'heebo',sans-serif;
+	font-family:'heebo', sans-serif;
 	font-size: 3.5em;
 	font-weight: 900;
 	line-height: 1em;
-	text-align: center;
-	position: relative;
-	top: 20;
-	margin: 0 auto;
+	color: #4d4d4d;
 }
 
 .servicesTextContainer {
@@ -528,7 +523,7 @@ body {
 	margin: 0px;
 	position: relative;
 	color: black;
-	opacity: 0.9;
+	opacity: 0.8;
 }
 
 
@@ -541,7 +536,6 @@ footer {
 	padding: 0.5em;
   bottom:0;
 	color: black;
-
 }
 
 .footerWrap {
@@ -549,14 +543,10 @@ footer {
 	flex-direction: row;
 	justify-content: center;
 	align-items: flex-start;
-   width: 90%;
+   width: 70%;
    margin: 0 auto;
 	 padding: 10px;
 	 flex-wrap: wrap;
-
-
-
-
 }
 
 footer ul {
@@ -569,14 +559,12 @@ align-items: center;
 width:30%;
 
 
-
-
 }
 
 footer ul h3 {
 	font-size: 1.5rem;
-	font-style: 'heebo';
-	font-weight: bold;
+	font-family: 'Arial';
+	font-weight: 100;
 	color: black;
 	padding: 0px;
 	margin: 0 auto;
@@ -589,18 +577,19 @@ footer ul h3 {
 }
 
 footer ul li {
-	font-size: 1rem;
+	font-size: 0.9em;
 line-height: 2em;
 color: grey;
 padding: 5px;
 margin: 0 auto;
 width: 100%;
 text-align: center;
-
+font-family: 'Arial';
+font
 
 }
 
-footer ul li:hover {
+footer ul li:hover, .footerWrap ul li:hover {
 	font-size: 1rem;
 line-height: 2em;
 color: orange;
@@ -611,34 +600,31 @@ text-align: center;
 }
 
 .footerWrap h2{
-	font-size: 20px;
-	font-style: 'heebo';
-	color: grey;
+	font-size: 18px;
+		font-family: sans-serif;
+		color: grey;
+		width: 80%;
 }
 
 .contactWrap {
 	line-height: 2.3em;
-	padding: 5px;
+	padding: 10px;
 	margin: 0 auto;
-
-	border-bottom: 1px black double;
-width: 60%;
+  width: 80%;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	flex-wrap: wrap;
 	text-align: center;
-
-
 }
 
 .contactWrap h2 {
-margin: 0 20px;
+margin: 0 auto;
 }
 
 .footerBorder {
-	width:90%;
-	margin: 0 auto;
+		margin: 0 auto;
+	width:50%;
 	padding: 10px;
 	height: auto;
 	display: flex;
@@ -654,31 +640,33 @@ margin: 0 20px;
  	display:flex;
  	flex-direction: row;
  	justify-content: center;
- 	margin: 10px auto;
+ 	margin: 0 auto;
+	margin-top: 40px;
+	padding: 5px;
  	align-items: center;
 	text-align: center;
-	width: 100%;
-	font-size: small;
+	width: 80%;
+	font-size: 0.8em;
+	white-space: nowrap;
 }
 
 #socialIcons {
 	color: lightgrey;
 	display: flex;
-	width: 20%;
+	width: 60%;
+	font-size: 2em;
 	flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-between;
 	align-items: center;
 }
 
 .fab  {
 padding: 4px;
-font-size: 2rem;
 color: black;
+margin: 0 auto;
 }
 
 .fab:hover  {
-padding: 4px;
-font-size: 2rem;
 color: orange;
 transition-delay: 0.03s;
 }
@@ -689,9 +677,8 @@ transition-delay: 0.03s;
 .portfolioSection {
 	width: 100%;
 	height: 100vh;
-	margin-top: 20px;
-	position: absolute;
-
+	margin: 0 auto;
+	margin-top: 3.5em;
 }
 
 .portfolioImg1 {
@@ -703,25 +690,25 @@ transition-delay: 0.03s;
   height: 100vh;
 	opacity: 0.88;
 	margin: 30px auto;
-
 }
 
 
 .portfolioImg1 h1 {
 	position: relative;
-	left: 25vw;
-	top: 85%;
-	font-family: 'heebo';
-	font-size: 2em;
-	font-weight: 700;
-	background-color:white;
-max-width: 40%;
-	color: black;
-	padding: 10px;
-	height: auto;
-	z-index: 10;
-	opacity: 0.85;
-}
+	    left: 55vw;
+	    top: 80%;
+	    font-family: 'heebo';
+	    font-size: 2em;
+	    font-weight: 700;
+	    background-color: white;
+	    color: black;
+	    padding: 15px;
+	    height: auto;
+	    z-index: 10;
+	    opacity: 0.85;
+			text-align: left;
+			border-radius: 40px;
+		}
 
 
 .portfolio-Hero {
@@ -740,7 +727,6 @@ max-width: 40%;
  flex-direction: column;
  justify-content: center;
  align-items: center;
- padding: 0px 50px;
  margin: 0 auto;
  width: 80%;
  text-align: center;
@@ -758,14 +744,14 @@ max-width: 40%;
 }
 
 .portfolioTextContainer p {
- font-family: 'heebo';
- font-size: 16px;
- line-height: 3em;
- width: 100%;
- text-align:  center;
- margin: 15px auto;
- padding: 0px 20px;
- color: #4d4d4d;
+	font-family: 'heebo';
+  font-size: 16px;
+  line-height: 2.5rem;
+  width: auto;
+  text-align: center;
+  margin: 20px auto;
+  padding: 10px 0 ;
+  color: #4d4d4d;
 }
 
 
@@ -991,6 +977,14 @@ margin: 100px auto;
 @media only screen and (max-width: 479px) {
 	/* Hero section */
 
+	body, html{
+		 overflow-x: hidden;
+	}
+
+	iframe {
+		width: 95%;
+		height: 300px;
+	}
 	.indexHero {
 		position: absolute;
 		width: 100%;
@@ -1037,10 +1031,53 @@ margin: 100px auto;
 	 color: black;
 	 padding: 2px;
 	 margin: 0 auto;
-
-
  }
 	/* HERO ENDS*/
+
+	/* ABOUT SECTION*/
+	.aboutTextContainer {
+			margin: 0 auto;
+		width: 100%;
+
+	}
+
+	.aboutTextContainer h1 {
+		font-family:'heebo', sans-serif;
+		font-size: 3.5em;
+		font-weight: 900;
+		line-height: 1em;
+		color: #4d4d4d;
+	}
+
+	.aboutTextContainer p {
+		font-family: 'heebo';
+		font-size: 20px;
+		line-height: 2.5rem;
+		width: auto;
+		color: #4d4d4d;
+		width:100%;
+		margin:  50px auto;
+		text-align:   justify;
+	}
+
+	/* ABOUT END*/
+		.portfolioTextContainer h1{
+			margin-top: 1em;
+		}
+
+	.portfolioTextContainer p {
+	 font-family: 'heebo';
+	 font-size: 20px;
+	 line-height: 2.5em;
+	 width: 100%;
+	 text-align: justify;
+	 margin: 0 auto;
+	 margin-top: 3em;
+	 padding: 10px 0;
+	 color: #4d4d4d;
+	}
+
+
 }
 
 
@@ -1051,7 +1088,7 @@ margin: 100px auto;
  }
 
 	.whatWeDo{
-		max-width: 100%;
+		max-width: 30%;
 		padding: 0px;
 	}
 
@@ -1073,7 +1110,7 @@ margin: 100px auto;
 
 .wrapper{
 	overflow-x: hidden;
-
+ margin: 0 auto;
 }
 
 .whatWeDo{
@@ -1144,9 +1181,6 @@ align-items: center;
 	width: 100%;
 	text-align: center;
 }
-
-
-
 
 
 
